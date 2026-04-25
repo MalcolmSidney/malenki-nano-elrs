@@ -140,18 +140,18 @@
         "min_copper_edge_clearance": 0.025,
         "min_groove_width": 0.0,
         "min_hole_clearance": 0.0,
-        "min_hole_to_hole": 0.25,
+        "min_hole_to_hole": 0.2,
         "min_microvia_diameter": 0.2,
         "min_microvia_drill": 0.1,
-        "min_resolved_spokes": 2,
+        "min_resolved_spokes": 1,
         "min_silk_clearance": 0.0,
         "min_text_height": 0.8,
         "min_text_thickness": 0.08,
-        "min_through_hole_diameter": 0.3,
+        "min_through_hole_diameter": 0.15,
         "min_track_width": 0.2,
         "min_via_annular_width": 0.05,
         "min_via_annulus": 0.049999999999999996,
-        "min_via_diameter": 0.4,
+        "min_via_diameter": 0.25,
         "solder_mask_to_copper_clearance": 0.0,
         "use_height_for_length_calcs": true
       },
@@ -201,9 +201,11 @@
       ],
       "track_widths": [
         0.0,
+        0.1,
         0.2,
         0.3,
         0.5,
+        0.7,
         0.8,
         0.9,
         1.8
@@ -238,6 +240,14 @@
         {
           "diameter": 0.0,
           "drill": 0.0
+        },
+        {
+          "diameter": 0.25,
+          "drill": 0.15
+        },
+        {
+          "diameter": 0.4,
+          "drill": 0.2
         },
         {
           "diameter": 0.6,
@@ -511,7 +521,7 @@
     "classes": [
       {
         "bus_width": 12,
-        "clearance": 0.15,
+        "clearance": 0.1,
         "diff_pair_gap": 0.25,
         "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
@@ -524,8 +534,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.6,
-        "via_drill": 0.3,
+        "via_diameter": 0.4,
+        "via_drill": 0.2,
         "wire_width": 6
       },
       {
@@ -538,13 +548,24 @@
         "microvia_drill": 0.1,
         "name": "rf",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
-        "priority": 0,
+        "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.9,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
         "wire_width": 6
+      },
+      {
+        "clearance": 0.1,
+        "name": "signal",
+        "pcb_color": "rgba(0, 0, 0, 0.000)",
+        "priority": 0,
+        "schematic_color": "rgba(0, 0, 0, 0.000)",
+        "track_width": 0.1,
+        "tuning_profile": "",
+        "via_diameter": 0.25,
+        "via_drill": 0.15
       }
     ],
     "meta": {
@@ -729,7 +750,7 @@
         "uuid": "f41619e3-8cf2-4511-8a51-762d4de43197"
       }
     ],
-    "used_designators": "D1-2,L1-2,L6,#PWR1-30,C1-26,J1-6,R1-15,#FLG1-3,ANT1,U1-6,Y1-2",
+    "used_designators": "",
     "variants": []
   },
   "sheets": [
