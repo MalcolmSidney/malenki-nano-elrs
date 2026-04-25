@@ -204,7 +204,9 @@
         0.2,
         0.3,
         0.5,
-        0.8
+        0.8,
+        0.9,
+        1.8
       ],
       "tuning_pattern_settings": {
         "diff_pair_defaults": {
@@ -530,7 +532,6 @@
         "bus_width": 12,
         "clearance": 0.2,
         "diff_pair_gap": 0.25,
-        "diff_pair_via_gap": 0.25,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
@@ -539,7 +540,7 @@
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 0,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.35,
+        "track_width": 0.9,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -567,6 +568,18 @@
       {
         "netclass": "rf",
         "pattern": "/radio/RFO"
+      },
+      {
+        "netclass": "rf",
+        "pattern": "/radio/RF"
+      },
+      {
+        "netclass": "rf",
+        "pattern": "/radio/RF1"
+      },
+      {
+        "netclass": "rf",
+        "pattern": "/radio/RF2"
       }
     ]
   },
@@ -716,7 +729,7 @@
         "uuid": "f41619e3-8cf2-4511-8a51-762d4de43197"
       }
     ],
-    "used_designators": "D1-2,L1-2,L6,#PWR1-30,C1-26,J1-6,R1-15,#FLG1-2,ANT1,U1-6,Y1-2",
+    "used_designators": "D1-2,L1-2,L6,#PWR1-30,C1-26,J1-6,R1-15,#FLG1-3,ANT1,U1-6,Y1-2",
     "variants": []
   },
   "sheets": [
