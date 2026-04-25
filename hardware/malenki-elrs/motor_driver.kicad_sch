@@ -934,7 +934,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "2786a02b-c8cd-4cfe-81f8-efb6fd50b3f4")
-		(property "Reference" "#PWR01"
+		(property "Reference" "#PWR028"
 			(at 123.19 118.11 0)
 			(hide yes)
 			(show_name no)
@@ -993,15 +993,15 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/159e78dd-19f3-45d1-a83d-5b1f96539c1f"
-					(reference "#PWR03")
+					(reference "#PWR029")
 					(unit 1)
 				)
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
-					(reference "#PWR01")
+					(reference "#PWR028")
 					(unit 1)
 				)
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/ed035ea4-687d-4ec6-a6e6-057c20ae2a22"
-					(reference "#PWR08")
+					(reference "#PWR030")
 					(unit 1)
 				)
 			)
@@ -1018,7 +1018,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7ab26216-2838-4b83-954a-8657912f6eb5")
-		(property "Reference" "C1"
+		(property "Reference" "C24"
 			(at 117.221 102.9716 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -1114,15 +1114,15 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/159e78dd-19f3-45d1-a83d-5b1f96539c1f"
-					(reference "C5")
+					(reference "C25")
 					(unit 1)
 				)
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/b339fba4-a8e4-4c66-ad9c-610bd968ae93"
-					(reference "C1")
+					(reference "C24")
 					(unit 1)
 				)
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/ed035ea4-687d-4ec6-a6e6-057c20ae2a22"
-					(reference "C6")
+					(reference "C26")
 					(unit 1)
 				)
 			)

@@ -1400,6 +1400,135 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "malenki-nano-rescue:R-Device"
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "R"
+				(at 2.032 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "R-Device"
+				(at 0 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at -1.778 0 90)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "ki_fp_filters" "R_*"
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "R-Device_0_1"
+				(rectangle
+					(start -1.016 -2.54)
+					(end 1.016 2.54)
+					(stroke
+						(width 0.254)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(symbol "R-Device_1_1"
+				(pin passive line
+					(at 0 3.81 270)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at 0 -3.81 90)
+					(length 1.27)
+					(name "~"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "power:GND"
 			(power global)
 			(pin_numbers
@@ -1583,6 +1712,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "27889060-50d6-4312-9ebb-a70d6ba050a1")
+	)
+	(junction
+		(at 101.6 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "7832f866-53a1-481d-a169-53a9393f8c03")
 	)
 	(junction
 		(at 171.45 121.92)
@@ -1774,6 +1909,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 88.9) (xy 101.6 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "2cee8420-0cc6-4862-9b2c-3e9bde6661d1")
+	)
+	(wire
+		(pts
 			(xy 143.51 116.84) (xy 144.78 116.84)
 		)
 		(stroke
@@ -1814,7 +1959,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 104.14) (xy 102.87 104.14)
+			(xy 100.33 104.14) (xy 102.87 104.14)
 		)
 		(stroke
 			(width 0)
@@ -1934,6 +2079,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 99.06) (xy 102.87 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "60e46bfa-c1dc-4557-a4df-75fb39cb98f3")
+	)
+	(wire
+		(pts
 			(xy 143.51 129.54) (xy 147.32 129.54)
 		)
 		(stroke
@@ -1964,6 +2119,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 96.52) (xy 101.6 99.06)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "768f4b23-81d6-4835-991d-aa2558e252fa")
+	)
+	(wire
+		(pts
 			(xy 102.87 119.38) (xy 99.06 119.38)
 		)
 		(stroke
@@ -1974,7 +2139,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 109.22) (xy 102.87 109.22)
+			(xy 100.33 109.22) (xy 102.87 109.22)
 		)
 		(stroke
 			(width 0)
@@ -2024,6 +2189,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 87.63) (xy 99.06 87.63)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "8c7e847a-4cd9-460e-a6da-43331dfda1c9")
+	)
+	(wire
+		(pts
 			(xy 158.75 93.98) (xy 162.56 93.98)
 		)
 		(stroke
@@ -2064,7 +2239,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 106.68) (xy 102.87 106.68)
+			(xy 100.33 106.68) (xy 102.87 106.68)
 		)
 		(stroke
 			(width 0)
@@ -2284,7 +2459,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 111.76) (xy 102.87 111.76)
+			(xy 100.33 111.76) (xy 102.87 111.76)
 		)
 		(stroke
 			(width 0)
@@ -2304,7 +2479,7 @@
 	)
 	(wire
 		(pts
-			(xy 101.6 99.06) (xy 102.87 99.06)
+			(xy 100.33 99.06) (xy 101.6 99.06)
 		)
 		(stroke
 			(width 0)
@@ -2355,6 +2530,29 @@
 			)
 		)
 	)
+	(global_label "VLOGIC"
+		(shape output)
+		(at 99.06 87.63 180)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+			(justify right)
+		)
+		(uuid "3cd534af-8201-4c18-89ab-8fa20134cfd0")
+		(property "Intersheetrefs" "${INTERSHEET_REFS}"
+			(at 88.531 87.7094 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify right)
+			)
+		)
+	)
 	(hierarchical_label "DIO1"
 		(shape input)
 		(at 144.78 111.76 0)
@@ -2390,7 +2588,7 @@
 	)
 	(hierarchical_label "NRESET"
 		(shape input)
-		(at 101.6 99.06 180)
+		(at 100.33 99.06 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2401,7 +2599,7 @@
 	)
 	(hierarchical_label "MOSI"
 		(shape input)
-		(at 101.6 106.68 180)
+		(at 100.33 106.68 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2423,7 +2621,7 @@
 	)
 	(hierarchical_label "SCK"
 		(shape input)
-		(at 101.6 109.22 180)
+		(at 100.33 109.22 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2434,7 +2632,7 @@
 	)
 	(hierarchical_label "NSS"
 		(shape input)
-		(at 101.6 111.76 180)
+		(at 100.33 111.76 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2445,7 +2643,7 @@
 	)
 	(hierarchical_label "MISO"
 		(shape input)
-		(at 101.6 104.14 180)
+		(at 100.33 104.14 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2466,7 +2664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "1eefbdc5-bf29-4cea-9be6-d166a04fcc80")
-		(property "Reference" "U7"
+		(property "Reference" "U3"
 			(at 123.19 78.74 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2646,7 +2844,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "U7")
+					(reference "U3")
 					(unit 1)
 				)
 			)
@@ -2663,7 +2861,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "309a1b55-5e1d-49e4-9b3b-21f4f904feee")
-		(property "Reference" "#PWR025"
+		(property "Reference" "#PWR021"
 			(at 151.13 86.36 0)
 			(hide yes)
 			(show_name no)
@@ -2723,7 +2921,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR025")
+					(reference "#PWR021")
 					(unit 1)
 				)
 			)
@@ -2740,7 +2938,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "3a2bdc09-0698-40c8-b9cd-d3afa9440efb")
-		(property "Reference" "#PWR028"
+		(property "Reference" "#PWR022"
 			(at 162.56 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -2800,7 +2998,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR028")
+					(reference "#PWR022")
 					(unit 1)
 				)
 			)
@@ -2818,7 +3016,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3b7e6e27-b743-4261-a724-bb926b00e9af")
-		(property "Reference" "C24"
+		(property "Reference" "C22"
 			(at 186.69 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2882,7 +3080,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C24")
+					(reference "C22")
 					(unit 1)
 				)
 			)
@@ -2900,7 +3098,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "3bb93195-f74b-4294-9bd3-f3f774609cd6")
-		(property "Reference" "L5"
+		(property "Reference" "L2"
 			(at 181.61 116.84 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -2962,7 +3160,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "L5")
+					(reference "L2")
 					(unit 1)
 				)
 			)
@@ -2979,7 +3177,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "442e9d38-84f1-496a-8bb1-854375b650ab")
-		(property "Reference" "#PWR033"
+		(property "Reference" "#PWR020"
 			(at 147.32 149.86 0)
 			(hide yes)
 			(show_name no)
@@ -3039,7 +3237,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR033")
+					(reference "#PWR020")
 					(unit 1)
 				)
 			)
@@ -3057,7 +3255,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "4473fd4e-5317-46b5-a881-5fcd63a0f876")
-		(property "Reference" "C7"
+		(property "Reference" "C16"
 			(at 156.21 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3068,7 +3266,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "10nF"
+		(property "Value" "100nF"
 			(at 156.21 76.1999 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3121,7 +3319,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C7")
+					(reference "C16")
 					(unit 1)
 				)
 			)
@@ -3138,7 +3336,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "51c8426a-7fed-468a-901e-4576124625a3")
-		(property "Reference" "#PWR024"
+		(property "Reference" "#PWR019"
 			(at 93.98 127 0)
 			(hide yes)
 			(show_name no)
@@ -3198,7 +3396,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR024")
+					(reference "#PWR019")
 					(unit 1)
 				)
 			)
@@ -3384,7 +3582,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "58a04d4f-3f44-4050-83cf-cc454f67d039")
-		(property "Reference" "C30"
+		(property "Reference" "C23"
 			(at 196.85 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3395,7 +3593,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "10pF"
 			(at 196.85 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3448,7 +3646,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C30")
+					(reference "C23")
 					(unit 1)
 				)
 			)
@@ -3466,7 +3664,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "65549880-991e-40f0-8429-ff27c3629301")
-		(property "Reference" "C26"
+		(property "Reference" "C18"
 			(at 167.64 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3530,7 +3728,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C26")
+					(reference "C18")
 					(unit 1)
 				)
 			)
@@ -3547,7 +3745,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "6e200025-23bd-45c7-9f1c-ef2b3f8b524f")
-		(property "Reference" "#PWR027"
+		(property "Reference" "#PWR026"
 			(at 181.61 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3607,7 +3805,121 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR027")
+					(reference "#PWR026")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "malenki-nano-rescue:R-Device")
+		(at 101.6 92.71 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "732b3636-0587-4821-8315-2ec3a1a54116")
+		(property "Reference" "R15"
+			(at 103.378 91.5416 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "10k"
+			(at 103.378 93.853 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
+			(at 99.822 92.71 90)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Partnum" "C25804"
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C25744"
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "Uniroyal"
+			(at 101.6 92.71 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "12b799aa-aca6-4d7d-8bfc-c98aa884969f")
+		)
+		(pin "2"
+			(uuid "6648bb1f-2256-4906-bf95-756ba9f88878")
+		)
+		(instances
+			(project "malenki-elrs"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
+					(reference "R15")
 					(unit 1)
 				)
 			)
@@ -3624,7 +3936,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "7f8ae0bb-54f1-494b-a071-48cdf57358ab")
-		(property "Reference" "#PWR026"
+		(property "Reference" "#PWR023"
 			(at 167.64 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -3684,7 +3996,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR026")
+					(reference "#PWR023")
 					(unit 1)
 				)
 			)
@@ -3701,7 +4013,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "828baf6e-4643-4b85-88b7-decf78abbadf")
-		(property "Reference" "#PWR029"
+		(property "Reference" "#PWR025"
 			(at 175.26 114.3 0)
 			(hide yes)
 			(show_name no)
@@ -3761,7 +4073,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR029")
+					(reference "#PWR025")
 					(unit 1)
 				)
 			)
@@ -3779,7 +4091,7 @@
 		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "8573177f-7bb0-4e2c-8f14-55bcbce3c5df")
-		(property "Reference" "C29"
+		(property "Reference" "C20"
 			(at 176.53 125.7299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3790,7 +4102,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "1pF"
+		(property "Value" "10pF"
 			(at 176.53 128.2699 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -3843,7 +4155,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C29")
+					(reference "C20")
 					(unit 1)
 				)
 			)
@@ -3860,7 +4172,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "9cf4f8a1-56ad-479a-860c-6f609c283f05")
-		(property "Reference" "#PWR032"
+		(property "Reference" "#PWR027"
 			(at 191.77 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -3920,7 +4232,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR032")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -3938,7 +4250,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "aa906b5c-27c7-46e8-8982-2ab4e0bc4fec")
-		(property "Reference" "L4"
+		(property "Reference" "L1"
 			(at 152.4 96.52 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4000,7 +4312,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "L4")
+					(reference "L1")
 					(unit 1)
 				)
 			)
@@ -4017,7 +4329,7 @@
 		(in_pos_files yes)
 		(dnp no)
 		(uuid "b5fc0abd-ca45-442f-85a9-87c023f50d21")
-		(property "Reference" "#PWR031"
+		(property "Reference" "#PWR024"
 			(at 171.45 138.43 0)
 			(hide yes)
 			(show_name no)
@@ -4077,7 +4389,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "#PWR031")
+					(reference "#PWR024")
 					(unit 1)
 				)
 			)
@@ -4215,7 +4527,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "ca7cabde-e2a2-430e-85f3-7f724b66f1bb")
-		(property "Reference" "C31"
+		(property "Reference" "C17"
 			(at 157.48 114.3 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4277,7 +4589,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C31")
+					(reference "C17")
 					(unit 1)
 				)
 			)
@@ -4295,7 +4607,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "d531504e-5755-474d-b745-2d1cd99e6287")
-		(property "Reference" "C8"
+		(property "Reference" "C19"
 			(at 172.72 73.6599 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4359,7 +4671,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C8")
+					(reference "C19")
 					(unit 1)
 				)
 			)
@@ -4377,7 +4689,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "df73081e-c847-48e8-8131-e58e321e45d7")
-		(property "Reference" "C27"
+		(property "Reference" "C21"
 			(at 180.34 100.3299 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4441,7 +4753,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
-					(reference "C27")
+					(reference "C21")
 					(unit 1)
 				)
 			)
