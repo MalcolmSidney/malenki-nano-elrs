@@ -51,7 +51,7 @@
         "silk_text_upright": true,
         "zones": {
           "45_degree_only": false,
-          "min_clearance": 0.18
+          "min_clearance": 0.2
         }
       },
       "diff_pair_dimensions": [
@@ -205,6 +205,7 @@
         0.2,
         0.3,
         0.5,
+        0.6,
         0.7,
         0.8,
         0.9,
@@ -541,16 +542,16 @@
       {
         "bus_width": 12,
         "clearance": 0.2,
-        "diff_pair_gap": 0.25,
+        "diff_pair_gap": 0.2,
         "diff_pair_width": 0.2,
         "line_style": 0,
         "microvia_diameter": 0.3,
         "microvia_drill": 0.1,
-        "name": "rf",
+        "name": "RF",
         "pcb_color": "rgba(0, 0, 0, 0.000)",
         "priority": 1,
         "schematic_color": "rgba(0, 0, 0, 0.000)",
-        "track_width": 0.9,
+        "track_width": 0.6,
         "tuning_profile": "",
         "via_diameter": 0.6,
         "via_drill": 0.3,
@@ -575,32 +576,36 @@
     "netclass_assignments": null,
     "netclass_patterns": [
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/ANT"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/IMPMATCH"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/RFI"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/RFO"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/RF"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/RF1"
       },
       {
-        "netclass": "rf",
+        "netclass": "RF",
         "pattern": "/radio/RF2"
+      },
+      {
+        "netclass": "RF",
+        "pattern": "/radio/Transmission Line"
       }
     ]
   },
@@ -750,7 +755,7 @@
         "uuid": "f41619e3-8cf2-4511-8a51-762d4de43197"
       }
     ],
-    "used_designators": "U7",
+    "used_designators": "L3-4,#PWR7,#PWR14-17,#PWR32-35,C11-14,C17,C28-30",
     "variants": []
   },
   "sheets": [
