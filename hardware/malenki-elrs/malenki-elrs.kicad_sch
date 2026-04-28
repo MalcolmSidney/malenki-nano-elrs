@@ -2721,17 +2721,6 @@
 		)
 		(uuid "0bbe7ee7-7a2d-4701-899f-9215440cec8f")
 	)
-	(text "Bulk capacitor placed close to esp32"
-		(exclude_from_sim no)
-		(at 82.042 166.878 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left bottom)
-		)
-		(uuid "0d2ee65d-70b9-4f2f-85b9-5c2a445c5686")
-	)
 	(text "Power in"
 		(exclude_from_sim no)
 		(at 33.02 20.32 0)
@@ -2788,12 +2777,6 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "1c8e5dab-0101-425e-983a-7c815d4ac79a")
-	)
-	(junction
-		(at 44.45 77.47)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "228e01dc-3c4b-4561-97e4-9de5582ccde6")
 	)
 	(junction
 		(at 162.56 63.5)
@@ -2884,6 +2867,12 @@
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "e7ae3f57-f4b3-41fe-8c85-698ce7d8cc8b")
+	)
+	(junction
+		(at 44.45 77.47)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "e981efc2-abeb-45b7-a594-d701ef9dec7c")
 	)
 	(junction
 		(at 41.91 68.58)
@@ -3577,7 +3566,7 @@
 	)
 	(wire
 		(pts
-			(xy 35.56 77.47) (xy 44.45 77.47)
+			(xy 38.1 77.47) (xy 44.45 77.47)
 		)
 		(stroke
 			(width 0)
@@ -4488,7 +4477,7 @@
 	)
 	(global_label "WEAPON3"
 		(shape input)
-		(at 35.56 77.47 180)
+		(at 38.1 77.47 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -4497,7 +4486,7 @@
 		)
 		(uuid "3a1f1d5c-5595-4e0c-ad25-498caab124b9")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at -76.2 -34.29 0)
+			(at -73.66 -34.29 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5352,29 +5341,6 @@
 			)
 		)
 	)
-	(global_label "VLOGIC"
-		(shape input)
-		(at 99.06 176.53 90)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "ce3a0f96-75c8-4cd5-ae26-25986090d046")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.9806 166.001 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "TXDEBUG"
 		(shape input)
 		(at 157.48 185.42 270)
@@ -5640,7 +5606,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25117"
 			(at 165.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5651,7 +5617,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "Manufacturer" ""
 			(at 165.1 124.46 0)
 			(hide yes)
 			(show_name no)
@@ -5722,7 +5688,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5733,17 +5699,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 41.91 83.82 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partnum" "C25804"
+		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5754,7 +5710,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "Partnum" "CRCW040210K0FKED"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5765,7 +5721,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "LCSC" "C71617"
+			(at 41.91 83.82 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
 			(at 41.91 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -5847,6 +5814,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 68.58 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100072"
 			(at 162.56 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -6014,7 +5992,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2286"
+		(property "LCSC" "C2986060"
 			(at 157.48 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6025,7 +6003,7 @@
 				)
 			)
 		)
-		(property "MPN" "KT-0603R"
+		(property "MPN" "19-217/R6C-AL1M2VY/6T"
 			(at 157.48 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6036,7 +6014,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Hubei KENTO"
+		(property "Manufacturer" "EVERLIGHT"
 			(at 157.48 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -6149,7 +6127,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25117"
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6160,7 +6138,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "Manufacturer" ""
 			(at 80.01 63.5 0)
 			(hide yes)
 			(show_name no)
@@ -6318,6 +6296,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 62.23 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76948"
 			(at 62.23 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -6599,6 +6588,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C100072"
+			(at 179.07 87.63 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "932bfa86-9150-4f42-a0d1-bfcd4424612c")
 		)
@@ -6757,6 +6757,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C100072"
+			(at 194.31 85.09 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "19e2db1e-3c0c-4c8c-9106-51fb3c34cac9")
 		)
@@ -6870,7 +6881,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470"
 			(at 58.42 80.01 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7093,6 +7104,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C29266"
+			(at 175.26 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "41eca5f5-cc9a-402b-b51b-f88cb2ef935e")
 		)
@@ -7164,6 +7186,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 80.01 129.54 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C76948"
 			(at 80.01 129.54 0)
 			(hide yes)
 			(show_name no)
@@ -7419,7 +7452,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25117"
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7430,7 +7463,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "Manufacturer" ""
 			(at 165.1 132.08 0)
 			(hide yes)
 			(show_name no)
@@ -7451,82 +7484,6 @@
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
 					(reference "R12")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "malenki-nano-rescue:GND-power")
-		(at 99.06 184.15 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "6d017205-deae-4d14-81e9-a56f7a4baa0a")
-		(property "Reference" "#PWR014"
-			(at 99.06 190.5 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 99.187 188.5442 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 99.06 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 99.06 184.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "128525e9-6e90-4f64-9a15-356f6ed19879")
-		)
-		(instances
-			(project "malenki-elrs"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "#PWR014")
 					(unit 1)
 				)
 			)
@@ -7912,6 +7869,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C100072"
+			(at 86.36 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "6a29d2dc-e7c8-422b-9721-add1db4b095c")
 		)
@@ -8070,6 +8038,17 @@
 				)
 			)
 		)
+		(property "LCSC" "C29266"
+			(at 194.31 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "2"
 			(uuid "7a5239dd-9230-4657-8270-d3551a921162")
 		)
@@ -8205,7 +8184,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
 			(at 44.45 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8216,7 +8195,7 @@
 				)
 			)
 		)
-		(property "Description" ""
+		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 44.45 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8227,7 +8206,7 @@
 				)
 			)
 		)
-		(property "Partnum" "C25804"
+		(property "Partnum" "CRCW040210K0FKED"
 			(at 44.45 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8238,7 +8217,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC" "C71617"
 			(at 44.45 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8249,7 +8228,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "Manufacturer" "VISHAY"
 			(at 44.45 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -8341,7 +8320,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C72041"
+		(property "LCSC" "C2986058"
 			(at 143.51 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8352,7 +8331,7 @@
 				)
 			)
 		)
-		(property "MPN" "19-217/BHC-ZL1M2RY/3T"
+		(property "MPN" "19-217/BHC-ZL1M2RY/6T"
 			(at 143.51 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -8498,7 +8477,7 @@
 				(justify left)
 			)
 		)
-		(property "Value" "470R"
+		(property "Value" "470"
 			(at 58.42 71.12 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -8541,7 +8520,7 @@
 				)
 			)
 		)
-		(property "Partnum" ""
+		(property "Partnum" "0402WGF4700TCE"
 			(at 55.88 68.58 0)
 			(hide yes)
 			(show_name no)
@@ -8904,7 +8883,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF, 0603, X5R/X7R, ≥10–16 V"
+		(property "Description" "10 µF, 0603, X5R/X7R, ≥10–16 V"
 			(at 104.14 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9018,7 +8997,7 @@
 				)
 			)
 		)
-		(property "Description" "1 µF, 0603, X5R/X7R, ≥25 V"
+		(property "Description" "10 µF, 0603, X5R/X7R, ≥25 V"
 			(at 59.69 31.75 0)
 			(hide yes)
 			(show_name no)
@@ -9121,7 +9100,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
 			(at 179.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9132,17 +9111,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 179.07 105.41 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partnum" ""
+		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 179.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9153,7 +9122,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "Partnum" "CRCW040210K0FKED"
+			(at 179.07 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C71617"
 			(at 179.07 105.41 0)
 			(hide yes)
 			(show_name no)
@@ -9188,7 +9168,7 @@
 		(in_bom yes)
 		(on_board yes)
 		(in_pos_files yes)
-		(dnp no)
+		(dnp yes)
 		(fields_autoplaced yes)
 		(uuid "ba86703b-79d9-4255-8169-19265d23de25")
 		(property "Reference" "J2"
@@ -9423,7 +9403,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C11702"
+		(property "LCSC" "C25117"
 			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9434,7 +9414,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "Manufacturer" ""
 			(at 185.42 111.76 0)
 			(hide yes)
 			(show_name no)
@@ -9516,6 +9496,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 181.61 69.85 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100072"
 			(at 181.61 69.85 0)
 			(hide yes)
 			(show_name no)
@@ -9661,7 +9652,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
 			(at 125.73 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9672,17 +9663,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 125.73 181.61 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partnum" "C25804"
+		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 125.73 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9693,7 +9674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "Partnum" "CRCW040210K0FKED"
 			(at 125.73 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9704,7 +9685,18 @@
 				)
 			)
 		)
-		(property "Manufacturer" "Uniroyal"
+		(property "LCSC" "C71617"
+			(at 125.73 181.61 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Manufacturer" "VISHAY"
 			(at 125.73 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -9806,88 +9798,6 @@
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
 					(reference "J3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "Device:C")
-		(at 99.06 180.34 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "cc84e3ee-90eb-4ef3-b99b-d69e477b2c84")
-		(property "Reference" "C11"
-			(at 104.14 179.0699 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "10uF"
-			(at 104.14 181.6099 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Capacitor_SMD:C_0402_1005Metric"
-			(at 100.0252 184.15 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Unpolarized capacitor"
-			(at 99.06 180.34 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "2"
-			(uuid "5cda903f-43dc-4061-bb18-647671e859f9")
-		)
-		(pin "1"
-			(uuid "51e2784b-f758-40a4-b808-6ac40228a65d")
-		)
-		(instances
-			(project "malenki-elrs"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "C11")
 					(unit 1)
 				)
 			)
@@ -10430,7 +10340,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC" "C11702"
 			(at 143.51 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -10477,10 +10387,9 @@
 		(on_board yes)
 		(in_pos_files yes)
 		(dnp no)
-		(fields_autoplaced yes)
 		(uuid "fec31312-4072-42fd-b24b-b9799ed69198")
 		(property "Reference" "C6"
-			(at 167.64 50.7999 0)
+			(at 166.116 50.8 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10491,7 +10400,7 @@
 			)
 		)
 		(property "Value" "100nF"
-			(at 167.64 53.3399 0)
+			(at 166.116 53.34 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -10524,6 +10433,17 @@
 			)
 		)
 		(property "Description" "Unpolarized capacitor"
+			(at 162.56 52.07 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C100072"
 			(at 162.56 52.07 0)
 			(hide yes)
 			(show_name no)
@@ -10593,7 +10513,7 @@
 				)
 			)
 		)
-		(property "Datasheet" ""
+		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
 			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10604,17 +10524,7 @@
 				)
 			)
 		)
-		(property "Description" ""
-			(at 86.36 57.15 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partnum" ""
+		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
 			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
@@ -10625,7 +10535,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "Partnum" "CRCW040210K0FKED"
+			(at 86.36 57.15 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "LCSC" "C71617"
 			(at 86.36 57.15 0)
 			(hide yes)
 			(show_name no)
