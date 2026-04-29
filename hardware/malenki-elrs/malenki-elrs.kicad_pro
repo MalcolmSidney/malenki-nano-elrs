@@ -243,12 +243,8 @@
           "drill": 0.0
         },
         {
-          "diameter": 0.25,
-          "drill": 0.15
-        },
-        {
           "diameter": 0.4,
-          "drill": 0.2
+          "drill": 0.3
         },
         {
           "diameter": 0.6,
@@ -535,8 +531,8 @@
         "schematic_color": "rgba(0, 0, 0, 0.000)",
         "track_width": 0.2,
         "tuning_profile": "",
-        "via_diameter": 0.4,
-        "via_drill": 0.2,
+        "via_diameter": 0.45,
+        "via_drill": 0.25,
         "wire_width": 6
       },
       {
@@ -755,7 +751,7 @@
         "uuid": "f41619e3-8cf2-4511-8a51-762d4de43197"
       }
     ],
-    "used_designators": "L3-4,#PWR7,#PWR14-17,#PWR32-35,C11-14,C17,C28-30",
+    "used_designators": "#FLG2-5",
     "variants": []
   },
   "sheets": [

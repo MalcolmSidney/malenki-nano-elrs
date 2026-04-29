@@ -1431,6 +1431,110 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "malenki-nano-rescue:PWR_FLAG-power"
+			(power global)
+			(pin_numbers
+				(hide yes)
+			)
+			(pin_names
+				(offset 0)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(in_pos_files yes)
+			(duplicate_pin_numbers_are_jumpers no)
+			(property "Reference" "#FLG"
+				(at 0 1.905 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "PWR_FLAG-power"
+				(at 0 3.81 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Datasheet" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(show_name no)
+				(do_not_autoplace no)
+				(hide yes)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(symbol "PWR_FLAG-power_0_0"
+				(pin power_out line
+					(at 0 0 90)
+					(length 0)
+					(name "pwr"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(symbol "PWR_FLAG-power_0_1"
+				(polyline
+					(pts
+						(xy 0 0) (xy 0 1.27) (xy -1.016 1.905) (xy 0 2.54) (xy 1.016 1.905) (xy 0 1.27)
+					)
+					(stroke
+						(width 0)
+						(type solid)
+					)
+					(fill
+						(type none)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "malenki-nano-rescue:R-Device"
 			(pin_numbers
 				(hide yes)
@@ -1806,16 +1910,6 @@
 		)
 		(uuid "a3cbbbc9-3bb6-4dfe-8fbf-2e94835c53c7")
 	)
-	(text "40ohm"
-		(exclude_from_sim no)
-		(at 87.376 118.872 0)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-		)
-		(uuid "c9733bcf-55ec-4cea-90f2-3beca24251d6")
-	)
 	(text "This design is modified from the following sources:\n\n"
 		(exclude_from_sim no)
 		(at 58.42 39.37 0)
@@ -1884,6 +1978,12 @@
 		(uuid "542efa09-7022-422b-98c1-2ea556b97360")
 	)
 	(junction
+		(at 74.93 59.69)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "73130a70-5850-4d5b-b4e3-e3382a1fb14a")
+	)
+	(junction
 		(at 41.91 97.79)
 		(diameter 0)
 		(color 0 0 0 0)
@@ -1949,16 +2049,6 @@
 	)
 	(wire
 		(pts
-			(xy 114.3 83.82) (xy 96.52 83.82)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0b71b369-667c-4a25-a6d4-46e1036d87b4")
-	)
-	(wire
-		(pts
 			(xy 87.63 142.24) (xy 87.63 140.97)
 		)
 		(stroke
@@ -2009,16 +2099,6 @@
 	)
 	(wire
 		(pts
-			(xy 88.9 59.69) (xy 95.25 59.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "18b3bb32-5496-4f04-b81b-e6e4a12f9d54")
-	)
-	(wire
-		(pts
 			(xy 29.21 128.27) (xy 29.21 125.73)
 		)
 		(stroke
@@ -2039,7 +2119,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 69.85) (xy 95.25 72.39)
+			(xy 95.25 69.85) (xy 95.25 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2429,6 +2509,16 @@
 	)
 	(wire
 		(pts
+			(xy 74.93 59.69) (xy 78.74 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "99f923a0-41b9-40d0-b3fe-25501201b25b")
+	)
+	(wire
+		(pts
 			(xy 87.63 125.73) (xy 87.63 128.27)
 		)
 		(stroke
@@ -2459,7 +2549,7 @@
 	)
 	(wire
 		(pts
-			(xy 95.25 54.61) (xy 95.25 59.69)
+			(xy 95.25 50.8) (xy 95.25 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2506,6 +2596,16 @@
 			(type default)
 		)
 		(uuid "a5657b70-0eeb-45e8-8385-19af12c17ef7")
+	)
+	(wire
+		(pts
+			(xy 88.9 59.69) (xy 95.25 59.69)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a5da37cb-9d34-400a-8717-b2d3d35a72b8")
 	)
 	(wire
 		(pts
@@ -2579,7 +2679,7 @@
 	)
 	(wire
 		(pts
-			(xy 72.39 59.69) (xy 78.74 59.69)
+			(xy 72.39 59.69) (xy 74.93 59.69)
 		)
 		(stroke
 			(width 0)
@@ -2729,7 +2829,7 @@
 	)
 	(wire
 		(pts
-			(xy 111.76 69.85) (xy 111.76 72.39)
+			(xy 111.76 69.85) (xy 111.76 71.12)
 		)
 		(stroke
 			(width 0)
@@ -2749,7 +2849,7 @@
 	)
 	(wire
 		(pts
-			(xy 92.71 54.61) (xy 95.25 54.61)
+			(xy 92.71 50.8) (xy 95.25 50.8)
 		)
 		(stroke
 			(width 0)
@@ -2766,6 +2866,16 @@
 			(type default)
 		)
 		(uuid "f725aa47-4b4b-4a93-95ad-ab541ea04f3e")
+	)
+	(wire
+		(pts
+			(xy 96.52 83.82) (xy 114.3 83.82)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "f8be9a20-5279-4d31-80f7-f72111440c67")
 	)
 	(wire
 		(pts
@@ -3892,7 +4002,7 @@
 	)
 	(global_label "VLOGIC"
 		(shape output)
-		(at 92.71 54.61 180)
+		(at 92.71 50.8 180)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3901,7 +4011,7 @@
 		)
 		(uuid "3aa96897-37a3-4b11-86e3-2d20b2c1a6da")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 82.181 54.6894 0)
+			(at 82.181 50.8794 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -4034,6 +4144,82 @@
 			(justify right)
 		)
 		(uuid "fdfffc91-2986-4b8c-bb9d-e9a6e1694112")
+	)
+	(symbol
+		(lib_id "malenki-nano-rescue:PWR_FLAG-power")
+		(at 74.93 59.69 0)
+		(unit 1)
+		(body_style 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(in_pos_files yes)
+		(dnp no)
+		(uuid "1c46d42d-89fc-4733-ad5a-654324ac4296")
+		(property "Reference" "#FLG03"
+			(at 74.93 57.785 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "PWR_FLAG"
+			(at 74.93 55.2958 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 74.93 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Datasheet" ""
+			(at 74.93 59.69 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Description" ""
+			(at 74.93 59.69 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(pin "1"
+			(uuid "6d56286e-0633-469b-b097-110566e58106")
+		)
+		(instances
+			(project "malenki-elrs"
+				(path "/f41619e3-8cf2-4511-8a51-762d4de43197/f8865f8d-c9c7-4324-8715-db444b940a42"
+					(reference "#FLG03")
+					(unit 1)
+				)
+			)
+		)
 	)
 	(symbol
 		(lib_id "malenki-elrs:SX1280IMLTRT")
@@ -4375,7 +4561,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C77177"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4633,7 +4819,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C100072"
+		(property "LCSC" "C1525"
+			(at 111.76 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4904,7 +5101,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C100072"
+		(property "LCSC" "C1525"
+			(at 78.74 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5074,7 +5282,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76899"
 			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5085,7 +5293,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H1R2BA01D"
+		(property "MPN" "GJM1555C1H1R2WB01D"
 			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5205,7 +5413,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 111.76 72.39 0)
+		(at 111.76 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5215,7 +5423,7 @@
 		(dnp no)
 		(uuid "6e200025-23bd-45c7-9f1c-ef2b3f8b524f")
 		(property "Reference" "#PWR026"
-			(at 111.76 78.74 0)
+			(at 111.76 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5226,7 +5434,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 111.887 76.708 0)
+			(at 111.887 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5236,7 +5444,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 111.76 72.39 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5247,7 +5455,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 111.76 72.39 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5258,7 +5466,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 111.76 72.39 0)
+			(at 111.76 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5324,7 +5532,7 @@
 				)
 			)
 		)
-		(property "Datasheet" "https://www.lcsc.com/datasheet/C71617.pdf?spm=wm.sxq.inf.ggs___wm.fly.bg.2.xh&lcsc_vid=FVleV1NXFQNYX1VeQQVdBFdRRgJeVQZfEgAMBQBUQVAxVlNRQFBZU1RfQ1VdVzsOAxUeFF5JWBYZEEoKFBINSQcJGk4eFQsCAgIaSgADAwAHC0slTlFbUkoOAwwC"
+		(property "Datasheet" ""
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5335,7 +5543,7 @@
 				)
 			)
 		)
-		(property "Description" "63mW 10kΩ 50V Thick Film Resistor ±1% ±100ppm/℃ 0402 Chip Resistor - Surface Mount RoHS"
+		(property "Description" "10kΩ 50V 62.5mW Thick Film Resistor ±1%"
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5346,7 +5554,7 @@
 				)
 			)
 		)
-		(property "Partnum" "CRCW040210K0FKED"
+		(property "Partnum" "0402WGF1002TCE"
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5357,7 +5565,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C71617"
+		(property "LCSC" "C25744"
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5368,7 +5576,7 @@
 				)
 			)
 		)
-		(property "Manufacturer" "VISHAY"
+		(property "Manufacturer" ""
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5584,7 +5792,7 @@
 				)
 			)
 		)
-		(property "Value" "0.5pF"
+		(property "Value" "0.8pF"
 			(at 146.05 105.41 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5616,7 +5824,7 @@
 				)
 			)
 		)
-		(property "Description" "Multilayer ceramic capacitors C0G ± 0.05 pF, 50 V"
+		(property "Description" "Multilayer ceramic capacitors C0G ± 0.1 pF, 50 V"
 			(at 146.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5627,7 +5835,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76988"
 			(at 146.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -5638,7 +5846,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1HR50WA01D"
+		(property "MPN" "GRM1555C1HR80BA01D"
 			(at 146.05 110.49 90)
 			(hide yes)
 			(show_name no)
@@ -5666,7 +5874,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 95.25 72.39 0)
+		(at 95.25 71.12 0)
 		(unit 1)
 		(body_style 1)
 		(exclude_from_sim no)
@@ -5676,7 +5884,7 @@
 		(dnp no)
 		(uuid "7f8ae0bb-54f1-494b-a071-48cdf57358ab")
 		(property "Reference" "#PWR023"
-			(at 95.25 78.74 0)
+			(at 95.25 77.47 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5687,7 +5895,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 95.377 76.708 0)
+			(at 95.377 75.438 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -5697,7 +5905,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 95.25 72.39 0)
+			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5708,7 +5916,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 95.25 72.39 0)
+			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -5719,7 +5927,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 95.25 72.39 0)
+			(at 95.25 71.12 0)
 			(hide yes)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6111,7 +6319,7 @@
 				)
 			)
 		)
-		(property "Value" "2.5nH"
+		(property "Value" "3nH"
 			(at 146.05 118.11 90)
 			(show_name no)
 			(do_not_autoplace no)
@@ -6143,7 +6351,7 @@
 				)
 			)
 		)
-		(property "Description" "Wire-wound Inductor ± 0.2 nH"
+		(property "Description" "Wire-wound Inductor ± 0.1 nH"
 			(at 146.05 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -6154,7 +6362,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C2041661"
 			(at 146.05 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -6165,7 +6373,7 @@
 				)
 			)
 		)
-		(property "MPN" "LQW15AN2N5C00D"
+		(property "MPN" "LQW15AN3N0B80D"
 			(at 146.05 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -6258,7 +6466,7 @@
 				)
 			)
 		)
-		(property "LCSC" ""
+		(property "LCSC" "C76899"
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6269,7 +6477,7 @@
 				)
 			)
 		)
-		(property "MPN" "GRM1555C1H1R2BA01D"
+		(property "MPN" "GJM1555C1H1R2WB01D"
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6558,7 +6766,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C100072"
+		(property "LCSC" "C1525"
+			(at 95.25 66.04 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05B104KO5NNNC"
 			(at 95.25 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6651,7 +6870,18 @@
 				)
 			)
 		)
-		(property "LCSC" "C92361"
+		(property "LCSC" "C47339"
+			(at 102.87 101.6 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "MPN" "CL05A474KP5NNNC"
 			(at 102.87 101.6 0)
 			(hide yes)
 			(show_name no)
