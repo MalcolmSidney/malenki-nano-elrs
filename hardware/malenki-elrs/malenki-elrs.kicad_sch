@@ -3797,6 +3797,10 @@
 		(uuid "243107f2-3de4-4282-a633-68fc9590abf8")
 	)
 	(no_connect
+		(at 107.95 101.6)
+		(uuid "24639b92-3e2b-418a-ae58-f88a83394aa2")
+	)
+	(no_connect
 		(at 173.99 88.9)
 		(uuid "2cf1c13f-856e-4c20-9f9c-d6a6ff2ccd97")
 	)
@@ -4505,16 +4509,6 @@
 			(type default)
 		)
 		(uuid "7bb04518-2727-4fb8-b885-ece59937a7ba")
-	)
-	(wire
-		(pts
-			(xy 149.86 185.42) (xy 149.86 186.69)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "7e62444d-d3f5-463d-820d-72af57c1e51d")
 	)
 	(wire
 		(pts
@@ -5492,30 +5486,6 @@
 			)
 		)
 	)
-	(global_label "BLINKY"
-		(shape input)
-		(at 149.86 170.18 90)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify left)
-		)
-		(uuid "49f5fc08-2d5c-4cbb-9ce9-56773ca499d4")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 149.86 160.5077 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-	)
 	(global_label "MOTOR3R"
 		(shape output)
 		(at 107.95 96.52 180)
@@ -6428,30 +6398,6 @@
 					(size 1.27 1.27)
 				)
 				(justify left)
-			)
-		)
-	)
-	(global_label "BLINKY"
-		(shape output)
-		(at 107.95 101.6 180)
-		(fields_autoplaced yes)
-		(effects
-			(font
-				(size 1.27 1.27)
-			)
-			(justify right)
-		)
-		(uuid "f367a940-a395-422f-8410-6e5221f7a6cc")
-		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.2777 101.6 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
 			)
 		)
 	)
@@ -9895,131 +9841,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:LED")
-		(at 149.86 181.61 90)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "873f0869-df80-4fe6-817c-973a36517086")
-		(property "Reference" "D1"
-			(at 152.8318 180.6194 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Value" "LED Blue"
-			(at 152.8318 182.9308 90)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify right)
-			)
-		)
-		(property "Footprint" "LED_SMD:LED_0402_1005Metric"
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" "Light emitting diode"
-			(at 146.05 181.864 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C22355736"
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "MPN" "XL-1005UBC"
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 149.86 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "ae268303-bd05-40ba-b10e-07929029fcda")
-		)
-		(pin "2"
-			(uuid "c05bf24f-2a51-4f12-8ed4-182c1b70ba47")
-		)
-		(instances
-			(project "malenki-elrs"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "D1")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "malenki-nano-rescue:GND-power")
 		(at 170.18 27.94 0)
 		(unit 1)
@@ -12056,196 +11877,6 @@
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
 					(reference "#PWR034")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "malenki-nano-rescue:R-Device")
-		(at 149.86 173.99 0)
-		(mirror x)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f11a69ac-2dce-40ba-8e3e-2f36b56ed9c7")
-		(property "Reference" "R9"
-			(at 151.638 175.1584 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "470"
-			(at 151.638 172.847 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0402_1005Metric"
-			(at 148.082 173.99 90)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 173.99 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Partnum" "0402WGF4700TCE"
-			(at 149.86 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "LCSC" "C25117"
-			(at 149.86 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
-			(at 149.86 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "80f93fe0-4b8a-4e87-9584-24cec53d15fd")
-		)
-		(pin "2"
-			(uuid "b8ed0bd1-335a-446f-b499-51f70145b402")
-		)
-		(instances
-			(project "malenki-elrs"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "R9")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
-		(lib_id "malenki-nano-rescue:GND-power")
-		(at 149.86 186.69 0)
-		(unit 1)
-		(body_style 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(in_pos_files yes)
-		(dnp no)
-		(uuid "f244762e-2332-4184-8365-d92203bb65e0")
-		(property "Reference" "#PWR07"
-			(at 149.86 193.04 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "GND"
-			(at 149.987 191.0842 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" ""
-			(at 149.86 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Datasheet" ""
-			(at 149.86 186.69 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Description" ""
-			(at 149.86 186.69 0)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(pin "1"
-			(uuid "5ee7141b-92c8-439d-847e-ac578effb0fd")
-		)
-		(instances
-			(project "malenki-elrs"
-				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "#PWR07")
 					(unit 1)
 				)
 			)
