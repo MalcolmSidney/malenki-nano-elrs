@@ -6570,18 +6570,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
-			(at 210.82 76.2 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25117"
 			(at 210.82 76.2 0)
 			(hide yes)
 			(show_name no)
@@ -6685,18 +6674,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 53.34 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25744"
 			(at 53.34 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -6788,7 +6766,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 212.09 95.25 0)
 			(hide yes)
 			(show_name no)
@@ -6969,7 +6947,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25503345"
+		(property "LCSC Part #" "C25503345"
 			(at 163.83 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -6981,17 +6959,6 @@
 			)
 		)
 		(property "MPN" "XL-1005SURC"
-			(at 163.83 181.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "XINGLIGHT"
 			(at 163.83 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7105,7 +7072,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC Part #" "C25117"
 			(at 30.48 72.39 0)
 			(hide yes)
 			(show_name no)
@@ -7274,7 +7241,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part #" "C52923"
 			(at 54.61 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -7378,7 +7345,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part #" "C1547"
 			(at 106.68 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -7568,18 +7535,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
-			(at 163.83 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25117"
 			(at 163.83 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -7617,7 +7573,7 @@
 		(dnp no)
 		(fields_autoplaced yes)
 		(uuid "2b534e27-b8f4-44cd-a5e8-9e0330251aa9")
-		(property "Reference" "U7"
+		(property "Reference" "U2"
 			(at 140.97 48.26 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -7672,7 +7628,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2913196"
+		(property "LCSC Part #" "C2913196"
 			(at 107.95 58.42 0)
 			(hide yes)
 			(show_name no)
@@ -7857,7 +7813,7 @@
 		(instances
 			(project "malenki-elrs"
 				(path "/f41619e3-8cf2-4511-8a51-762d4de43197"
-					(reference "U7")
+					(reference "U2")
 					(unit 1)
 				)
 			)
@@ -7930,7 +7886,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 77.47 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8032,7 +7988,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76884"
+		(property "LCSC Part #" "C76884"
 			(at 71.12 49.53 90)
 			(hide yes)
 			(show_name no)
@@ -8297,7 +8253,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC Part #" "C25117"
 			(at 67.31 116.84 0)
 			(hide yes)
 			(show_name no)
@@ -8466,7 +8422,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part #" "C52923"
 			(at 207.01 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8570,7 +8526,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1547"
+		(property "LCSC Part #" "C1547"
 			(at 88.9 181.61 0)
 			(hide yes)
 			(show_name no)
@@ -8752,7 +8708,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 64.77 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -8941,18 +8897,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
-			(at 210.82 83.82 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25117"
 			(at 210.82 83.82 0)
 			(hide yes)
 			(show_name no)
@@ -9256,7 +9201,7 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C9055"
+		(property "LCSC Part #" "C9055"
 			(at 83.82 30.48 0)
 			(hide yes)
 			(show_name no)
@@ -9435,7 +9380,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 36.83 78.74 0)
 			(hide yes)
 			(show_name no)
@@ -9615,7 +9560,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C52923"
+		(property "LCSC Part #" "C52923"
 			(at 191.77 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -9805,18 +9750,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 55.88 123.19 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25744"
 			(at 55.88 123.19 0)
 			(hide yes)
 			(show_name no)
@@ -9995,18 +9929,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 43.18 54.61 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
+		(property "LCSC Part #" "C96446"
 			(at 43.18 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -10108,7 +10031,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
+		(property "LCSC Part #" "C25117"
 			(at 67.31 107.95 0)
 			(hide yes)
 			(show_name no)
@@ -10261,7 +10184,7 @@
 				(justify bottom)
 			)
 		)
-		(property "LCSC" "C5371760"
+		(property "LCSC Part #" "C5371760"
 			(at 97.79 176.53 0)
 			(hide yes)
 			(show_name no)
@@ -10369,18 +10292,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25779"
-			(at 132.08 173.99 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25779"
 			(at 132.08 173.99 0)
 			(hide yes)
 			(show_name no)
@@ -10483,18 +10395,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 104.14 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
+		(property "LCSC Part #" "C96446"
 			(at 104.14 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10597,18 +10498,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 59.69 29.21 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
+		(property "LCSC Part #" "C96446"
 			(at 59.69 29.21 0)
 			(hide yes)
 			(show_name no)
@@ -10866,7 +10756,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part #" "C25744"
 			(at 55.88 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -11139,18 +11029,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25117"
-			(at 49.53 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25117"
 			(at 49.53 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -11318,7 +11197,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 179.07 133.35 0)
 			(hide yes)
 			(show_name no)
@@ -11422,7 +11301,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 83.82 99.06 0)
 			(hide yes)
 			(show_name no)
@@ -11536,18 +11415,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 132.08 182.88 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25744"
 			(at 132.08 182.88 0)
 			(hide yes)
 			(show_name no)
@@ -12026,7 +11894,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "LCSC Part #" "C15195"
 			(at 194.31 54.61 0)
 			(hide yes)
 			(show_name no)
@@ -12129,7 +11997,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
+		(property "LCSC Part #" "C25744"
 			(at 36.83 66.04 0)
 			(hide yes)
 			(show_name no)

@@ -4335,6 +4335,17 @@
 				(justify bottom)
 			)
 		)
+		(property "LCSC Part #" "C125969"
+			(at 63.5 105.41 0)
+			(hide yes)
+			(show_name no)
+			(do_not_autoplace no)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
 		(pin "1"
 			(uuid "1403273f-27f7-4058-b9de-d3d368bd168d")
 		)
@@ -4561,7 +4572,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C77177"
+		(property "LCSC Part #" "C77177"
 			(at 182.88 120.65 0)
 			(hide yes)
 			(show_name no)
@@ -4819,7 +4830,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 111.76 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -4921,7 +4932,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2041661"
+		(property "LCSC Part #" "C2041661"
 			(at 111.76 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -5101,7 +5112,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 78.74 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -5282,7 +5293,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76899"
+		(property "LCSC Part #" "C76899"
 			(at 137.16 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -5385,7 +5396,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C15195"
+		(property "LCSC Part #" "C15195"
 			(at 96.52 87.63 0)
 			(hide yes)
 			(show_name no)
@@ -5565,18 +5576,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C25744"
-			(at 41.91 91.44 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" ""
+		(property "LCSC Part #" "C25744"
 			(at 41.91 91.44 0)
 			(hide yes)
 			(show_name no)
@@ -5835,7 +5835,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76988"
+		(property "LCSC Part #" "C76988"
 			(at 146.05 110.49 0)
 			(hide yes)
 			(show_name no)
@@ -6093,7 +6093,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76988"
+		(property "LCSC Part #" "C76988"
 			(at 101.6 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6271,7 +6271,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C383402"
+		(property "LCSC Part #" "C383402"
 			(at 92.71 100.33 90)
 			(hide yes)
 			(show_name no)
@@ -6362,7 +6362,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C2041661"
+		(property "LCSC Part #" "C2041661"
 			(at 146.05 120.65 90)
 			(hide yes)
 			(show_name no)
@@ -6466,7 +6466,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C76899"
+		(property "LCSC Part #" "C76899"
 			(at 154.94 125.73 0)
 			(hide yes)
 			(show_name no)
@@ -6646,7 +6646,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C49253546"
+		(property "LCSC Part #" "C49253546"
 			(at 29.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6658,17 +6658,6 @@
 			)
 		)
 		(property "MPN" "Q24FA20H0051200"
-			(at 29.21 121.92 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Seiko Epson"
 			(at 29.21 121.92 0)
 			(hide yes)
 			(show_name no)
@@ -6766,7 +6755,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C1525"
+		(property "LCSC Part #" "C1525"
 			(at 95.25 66.04 0)
 			(hide yes)
 			(show_name no)
@@ -6870,7 +6859,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C47339"
+		(property "LCSC Part #" "C47339"
 			(at 102.87 101.6 0)
 			(hide yes)
 			(show_name no)

@@ -1083,18 +1083,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C96446"
-			(at 114.3 104.14 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "Samsung"
+		(property "LCSC Part #" "C96446"
 			(at 114.3 104.14 0)
 			(hide yes)
 			(show_name no)
@@ -1279,7 +1268,7 @@
 				)
 			)
 		)
-		(property "LCSC" "C39159"
+		(property "LCSC Part #" "C39159"
 			(at 147.32 97.79 0)
 			(hide yes)
 			(show_name no)
@@ -1291,17 +1280,6 @@
 			)
 		)
 		(property "MPN" "DRV8837DSGR"
-			(at 147.32 97.79 0)
-			(hide yes)
-			(show_name no)
-			(do_not_autoplace no)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Manufacturer" "TI"
 			(at 147.32 97.79 0)
 			(hide yes)
 			(show_name no)
