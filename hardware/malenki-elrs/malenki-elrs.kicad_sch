@@ -3361,9 +3361,9 @@
 		)
 		(uuid "0bbe7ee7-7a2d-4701-899f-9215440cec8f")
 	)
-	(text "Must be pulled low at boot"
+	(text "Must be pulled low at boot (using weak internal pull down)"
 		(exclude_from_sim no)
-		(at 188.468 73.914 0)
+		(at 204.47 73.914 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -3503,9 +3503,9 @@
 		)
 		(uuid "7eb2f74a-9844-4fa5-84dc-613522f40893")
 	)
-	(text "Must be pulled low at boot"
+	(text "Must be pulled low at boot (using weak internal pull down)"
 		(exclude_from_sim no)
-		(at 188.468 71.374 0)
+		(at 204.47 71.374 0)
 		(effects
 			(font
 				(size 1.27 1.27)
